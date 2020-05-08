@@ -11,7 +11,7 @@ uniform lowp vec4 step;
 
 // https://codepen.io/actarian/pen/XRrgOm?editors=0010
 vec4 bevel_normal() {
-	mediump vec2 pixel = vec2(1.0 / 512.0);	
+	mediump vec2 pixel = vec2(1.0 / step.x);	
 	mediump vec4 luma = vec4(0.5, 0.5, 0.5, 0.5);
 	for(float i = 1.0; i < 3.0; i++) {
 		luma.x += (texture2D(texture_sampler, var_texcoord0 + pixel * vec2(0.0, -1.0) * i)).x / i;

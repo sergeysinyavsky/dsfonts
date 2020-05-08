@@ -12,7 +12,7 @@ fonts {
   font: "/example/fonts/font-df-gradient-y.font"
 }
 fonts {
-  name: "font-df-gradient-x"
+  name: "font-df-gradient"
   font: "/example/fonts/font-df-gradient.font"
 }
 fonts {
@@ -249,7 +249,7 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "gui-gradient-x"
-  font: "font-df-gradient-x"
+  font: "font-df-gradient"
   id: "gradient-x"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
