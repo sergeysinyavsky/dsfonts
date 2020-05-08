@@ -10,7 +10,7 @@ Open your game.project file and in the dependencies field under project add:
 >https://github.com/sergeysinyavsky/dsfonts/archive/master.zip
 
 ## Example
-![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/image.jpg)
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/full.png)
 
 ## Shaders
 
@@ -20,10 +20,14 @@ Parameters:
 `step.x` - change bevel level. Default 1024.<br />
 `step.y` - change brightness. Default 2.<br />
 
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/bevel.png)
+
 #### Bevel normal shader
 Parameters:
 
 `step.x` - change bevel level. Default 1024.<br />
+
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/bevel-normal.png)
 
 #### Gradient shader
 Parameters:
@@ -33,6 +37,8 @@ Parameters:
 `direction.x` - Specifies the direction for the x coordinate. From -1 to 1. Default 1.<br />
 `direction.y` - Specifies the direction for the y coordinate. From -1 to 1. Default 0.<br />
 
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/gradient.png)
+
 #### Glow shader
 Parameters:
 
@@ -41,6 +47,7 @@ Parameters:
 `strength.y` - Inner strength. Default 2.<br />
 `strength.z` - Sharpness strength. Default 30.<br />
 
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/glow.png)
 
 #### Gradient bevel shader
 Parameters:
@@ -52,5 +59,6 @@ Parameters:
 `direction.x` - Specifies the direction for the x coordinate. From -1 to 1. Default 0.<br />
 `direction.y` - Specifies the direction for the y coordinate. From -1 to 1. Default 1.<br />
 
+![screenshot](https://raw.githubusercontent.com/sergeysinyavsky/dsfonts/master/example/scrins/gradient-bevel.png)
 
 ---
